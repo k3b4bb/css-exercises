@@ -7,9 +7,34 @@ img {
   height: 100px;
 }
 
+.columns {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
